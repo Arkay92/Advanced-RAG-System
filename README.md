@@ -39,7 +39,7 @@ The script uses environment variables for configuration. You can set these varia
 Run the script in interactive mode by executing:
 
 ```bash
-python advanced_rag.py
+python main.py
 ```
 
 Follow the prompts to enter queries and receive generated responses. Type 'exit' or 'quit' to terminate the interactive session.
