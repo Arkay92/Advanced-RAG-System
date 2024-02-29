@@ -30,10 +30,10 @@ pip install -r requirements.txt
 ## Configuration
 The script uses environment variables for configuration. You can set these variables in your environment or directly in the script:
 
-ES_HOST: Hostname of the Elasticsearch server (default: 'localhost')
-ES_PORT: Port number of the Elasticsearch server (default: 9200)
-USE_SEMANTIC_SEARCH: Whether to use semantic search instead of Elasticsearch ('true' or 'false', default: 'false')
-DOCUMENTS_DIR: Directory containing documents for semantic search (required if USE_SEMANTIC_SEARCH is 'true')
+- ES_HOST: Hostname of the Elasticsearch server (default: 'localhost')
+- ES_PORT: Port number of the Elasticsearch server (default: 9200)
+- USE_SEMANTIC_SEARCH: Whether to use semantic search instead of Elasticsearch ('true' or 'false', default: 'false')
+- DOCUMENTS_DIR: Directory containing documents for semantic search (required if USE_SEMANTIC_SEARCH is 'true')
 
 ## Usage
 Run the script in interactive mode by executing:
